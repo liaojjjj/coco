@@ -29,21 +29,21 @@ Coco is an elegant, lightweight, and beautiful Go library that renders OpenAPI/S
 
 #### Advantages of Coco:
 
-* **Elegant DX** - Minimal API design, integrate in just 30 seconds
-* **Beautiful UI** - Built with Vue 3 + TailwindCSS, supports automatic light/dark theme switching
-* **Framework Agnostic** - Works with all Go web frameworks (Gin, Echo, Fiber, Chi, net/http, etc.)
-* **Feature Complete** - Built-in API testing, spec export, request history, internationalization, and more
+- **Elegant DX** - Minimal API design, integrate in just 30 seconds
+- **Beautiful UI** - Built with Vue 3 + TailwindCSS, supports automatic light/dark theme switching
+- **Framework Agnostic** - Works with all Go web frameworks (Gin, Echo, Fiber, Chi, net/http, etc.)
+- **Feature Complete** - Built-in API testing, spec export, request history, internationalization, and more
 
 ## Core Features
 
-* **Internationalization** - Built-in English and Chinese support, extensible for more languages
-* **Zero Dependencies** - Pure Go implementation, frontend assets fully embedded, no external tools required
-* **Framework Agnostic** - Compatible with all Go web frameworks (Gin, Echo, Fiber, Chi, net/http, etc.)
-* **Flexible Configuration** - Rich configuration options to meet various customization needs
-* **API Testing** - Built-in interactive debug panel for instant API testing
-* **Spec Export** - One-click export of OpenAPI/Swagger specification files
-* **Request History** - Automatically saves debug history for easy review and reuse
-* **High Performance** - Embedded static assets, single-file bundle, no additional HTTP requests
+- **Internationalization** - Built-in English and Chinese support, extensible for more languages
+- **Zero Dependencies** - Pure Go implementation, frontend assets fully embedded, no external tools required
+- **Framework Agnostic** - Compatible with all Go web frameworks (Gin, Echo, Fiber, Chi, net/http, etc.)
+- **Flexible Configuration** - Rich configuration options to meet various customization needs
+- **API Testing** - Built-in interactive debug panel for instant API testing
+- **Spec Export** - One-click export of OpenAPI/Swagger specification files
+- **Request History** - Automatically saves debug history for easy review and reuse
+- **High Performance** - Embedded static assets, single-file bundle, no additional HTTP requests
 
 ## Installation
 
@@ -113,28 +113,31 @@ go run main.go
 
 **Step 4: View your docs**
 
-Open your browser and visit http://localhost:8000/docs/ to see your beautiful API documentation!
+Open your browser and visit <http://localhost:8000/docs/> to see your beautiful API documentation!
 
----
+***
 
 ### Other Usage Methods
 
 **Load from local file**
+
 ```go
 handler := coco.New("./openapi.json")
 ```
 
 **Load from URL**
+
 ```go
 handler := coco.New("", coco.SpecURL("https://example.com/openapi.json"))
 ```
 
 **Load from byte array**
+
 ```go
 handler := coco.New("", coco.Spec(specBytes))
 ```
 
-**For more configuration and integration options, see [Full Documentation](./docs/en/)**
+**For more configuration and integration options, see** **[Full Documentation](./docs/en/)**
 
 ## Integration Examples
 
@@ -387,6 +390,7 @@ func main() {
 ```
 
 Generate documentation before running:
+
 ```bash
 swag init
 ```
@@ -429,12 +433,7 @@ Check the [example/framework](./example/framework) directory for complete exampl
 
 Each framework provides examples for both Huma and Swag OpenAPI generation methods.
 
-## 📚 Documentation
-
-- **English**: [docs/en/](./docs/en/)
-- **中文**: [docs/zh/](./docs/zh/)
-
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and suggestions are welcome!
 
@@ -448,6 +447,6 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 If you like this project or are using it to learn or build your solution, please give it a Star to get updates on new releases. Your support matters!
 
----
+***
 
-**Made with ❤️ by [leehainuo](https://github.com/leehainuo)**
+**Made with ❤️ by** **[leehainuo](https://github.com/leehainuo)**
