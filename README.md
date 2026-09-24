@@ -433,6 +433,17 @@ Check the [example/framework](./example/framework) directory for complete exampl
 
 Each framework provides examples for both Huma and Swag OpenAPI generation methods.
 
+<br />
+
+## Document
+
+- [Quick Start Guide](https://github.com/leehainuo/coco/blob/main/docs/zh/01-getting-started.md)
+- [Configuration Guide](https://github.com/leehainuo/coco/blob/main/docs/zh/02-configuration.md)
+- [Framework Integration Examples](https://github.com/leehainuo/coco/blob/main/docs/zh/03-framework-integration.md)
+- [OpenAPI Generation Guide](https://github.com/leehainuo/coco/blob/main/docs/zh/04-openapi-generation.md)
+- [API Reference](https://github.com/leehainuo/coco/blob/main/docs/zh/05-api-reference.md)
+- [Full Example Code](https://github.com/leehainuo/coco/blob/main/docs/example/framework)
+
 ## Contributing
 
 Contributions, issues, and suggestions are welcome!
